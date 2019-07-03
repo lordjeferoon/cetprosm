@@ -1,0 +1,138 @@
+.titulo-principal{
+	width: 100%;
+	text-align: center;
+}
+
+
+.titulo-principal h4{
+	color: white;
+	font-size: 20px;
+	padding: 14px 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .titulo-principal h4{
+        font-size: 12px;
+        padding: 20px 0;
+    }
+
+    .titulo-formulario h2{
+        font-size: 17px !important;
+    }
+
+    .titulo-label{
+    	font-size: 14px !important;
+    }
+
+	.page-content > div {
+		padding: 0px 30px !important;
+	}  
+}
+
+/*.contenido-main{
+	padding-top: 40px !important;
+}*/
+
+
+
+.titulo-label{
+	font-weight: bold;
+	color: #252525;
+	font-size: 15px;
+}
+
+.titulo-formulario{
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+	border-top: solid 5px #0D6BD6;
+}
+
+.titulo-formulario h2{
+	font-weight: bold;
+	color: #252525;
+	font-size: 25px;
+}
+
+.titulo-label{
+	font-weight: bold;
+	color: #252525;
+	font-size: 15px;
+}
+
+.titulo-formulario h2 span{
+	color: #0D6BD6;
+}
+
+
+.botones{
+	display: flex;
+	justify-content: space-around;
+}
+
+.input, .boton-registrar, .boton-limpiar, .boton-modificar, .boton-eliminar, .boton-buscar{
+	background-color: #efefef;
+	padding: 10px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: solid #c8c8c8 5px;
+	transition: all .5%;
+	border-radius: 5px;
+}
+
+.input:focus{
+	border-bottom: solid #0D6BD6 5px;
+}
+
+.boton-registrar, .boton-limpiar, .boton-eliminar, .boton-modificar, .boton-buscar{
+	width: 40%;
+	border-bottom: none;
+	background-color: #31b1e5;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.boton-buscar{
+	width: 80%;
+}
+
+.boton-limpiar{
+	background-color: #eda135;
+}
+
+.boton-registrar:hover, .boton-eliminar:hover, .boton-modificar:hover{
+	background-color: #4c9ed9;
+}
+
+.boton-limpiar:hover{
+	background-color: #fa9535;
+}
+
+/* Notas */
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.login-block{
+    background: #DE6262;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float:left;
+width:100%;
+padding : 50px 0;
+}
+.banner-sec{background:url(https://static.pexels.com/photos/33972/pexels-photo.jpg)  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
+.container{background:#fff; border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0.1);}
+.carousel-inner{border-radius:0 10px 10px 0;}
+.carousel-caption{text-align:left; left:5%;}
+.login-sec{padding: 50px 30px; position:relative;}
+.login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+.login-sec .copy-text i{color:#FEB58A;}
+.login-sec .copy-text a{color:#E36262;}
+.login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #DE6262;}
+.login-sec h2:after{content:" "; width:100px; height:5px; background:#FEB58A; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.btn-login{background: #DE6262; color:#fff; font-weight:600;}
+.banner-text{width:70%; position:absolute; bottom:40px; padding-left:20px;}
+.banner-text h2{color:#fff; font-weight:600;}
+.banner-text h2:after{content:" "; width:100px; height:5px; background:#FFF; display:block; margin-top:20px; border-radius:3px;}
+.banner-text p{color:#fff;}
+
